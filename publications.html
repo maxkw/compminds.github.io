@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications - Computational Minds and Machines Lab</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Page Title -->
+    <header class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 py-2 flex items-center">
+            <img src="lablogo.png" alt="Lab Logo" class="h-16 w-16 mr-2">
+            <div>
+                <h1 class="text-3xl font-bold text-gray-900">Computational Minds and Machines Lab</h1>
+                <h2 class="text-xl text-gray-600">
+                    University of Washington
+                </h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex space-x-8 hidden md:flex">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="publications.html" class="nav-item active">Publications</a>
+                <a href="people.html" class="nav-item">People</a>
+                <a href="join.html" class="nav-item">Join Us</a>
+            </div>
+            <button class="md:hidden" id="menu-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Dropdown menu for small screens -->
+        <div class="flex flex-col space-y-2 mt-2 px-4 md:hidden hidden" id="dropdown-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="publications.html" class="nav-item active">Publications</a>
+            <a href="people.html" class="nav-item">People</a>
+            <a href="join.html" class="nav-item">Join Us</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <div class="max-w-4xl mx-auto py-4 px-4">
+            <div class="text-sm">
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">Preprints</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2510.01272" class="text-blue-600 hover:text-blue-700">Modeling Others' Minds as Code</a></p>
+                    <p class="text-gray-600 text-xs">Jha, Huang, Ye, Jaques, Kleiman-Weiner (2025). arXiv</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2509.22504" class="text-blue-600 hover:text-blue-700">Estimating the Empowerment of Language Model Agents</a></p>
+                    <p class="text-gray-600 text-xs">Song, Gore, Kleiman-Weiner (2025). arXiv</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2511.04177" class="text-blue-600 hover:text-blue-700">When Empowerment Disempowers</a></p>
+                    <p class="text-gray-600 text-xs">Yang, Cakmak, Kleiman-Weiner (2025). arXiv</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2509.25369" class="text-blue-600 hover:text-blue-700">Generative Value Conflicts Reveal LLM Priorities</a></p>
+                    <p class="text-gray-600 text-xs">Liu, Ghate, Diab, Fried, Kasirzadeh, Kleiman-Weiner (2025). arXiv</p>
+                </div>                
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2025</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman-weiner-et-al-2025-evolving-general-cooperation-with-a-bayesian-theory-of-mind.pdf" class="text-blue-600 hover:text-blue-700">Evolving general cooperation with a Bayesian theory of mind</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Vientos, Rand, Tenenbaum (2025). Proceedings of the National Academy of Sciences</p>
+                </div> 
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2504.12714" class="text-blue-600 hover:text-blue-700">Cross-environment Cooperation Enables Zero-shot Multi-agent Coordination</a></p>
+                    <p class="text-gray-600 text-xs">Jha, Carvalho, Liang, Du, Kleiman-Weiner*, Jaques* (2025). ICML (Oral)</p>
+                </div>      
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2512.00371" class="text-blue-600 hover:text-blue-700">Evaluating LLMs in Open-Source Games</a></p>
+                    <p class="text-gray-600 text-xs">Sistla, Kleiman-Weiner (2025). NeurIPS</p>
+                </div>                                         
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/davis2025inference.pdf" class="text-blue-600 hover:text-blue-700">Inference from social evaluation</a></p>
+                    <p class="text-gray-600 text-xs">Davis, Allen, Kleiman-Weiner, Jara-Ettinger, Gerstenberg (2025). Journal of Personality and Social Psychology</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2506.06166" class="text-blue-600 hover:text-blue-700">The Lock-in Hypothesis: Stagnation by Algorithm</a></p>
+                    <p class="text-gray-600 text-xs">Qiu, He, Chugh, Kleiman-Weiner (2025). ICML</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://osf.io/preprints/psyarxiv/azhtu" class="text-blue-600 hover:text-blue-700">When Bayesians take over: A computational model of parental intervention</a></p>
+                    <p class="text-gray-600 text-xs">Shachnai, Kleiman-Weiner, Berke, Leonard (2025). CogSci</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2505.21479" class="text-blue-600 hover:text-blue-700">Are Language Models Consequentialist or Deontological Moral Reasoners?</a></p>
+                    <p class="text-gray-600 text-xs">Samway*, Kleiman-Weiner*, Piedrahita, Mihalcea, Schölkopf, Jin (2025). EMNLP</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2506.19202" class="text-blue-600 hover:text-blue-700">Preserving Sense of Agency: User Preferences for Robot Autonomy and User Control across Household Tasks</a></p>
+                    <p class="text-gray-600 text-xs">Yang, Patel, Kleiman-Weiner, Cakmak (2025). IEEE RO-MAN</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/zhang2025similar.pdf" class="text-blue-600 hover:text-blue-700">Similar failures of consideration arise in human and machine planning</a></p>
+                    <p class="text-gray-600 text-xs">Zhang, Langenkamp, Kleiman-Weiner, Oikarinen, Cushman (2025). Cognition</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/RapportMunro_Dolins et al 2025_Chasing Hunting in VR_JCP.pdf" class="text-blue-600 hover:text-blue-700">Chimpanzees (Pan troglodytes) and bonobos (Pan paniscus) chase prey around obstacles in virtual environments.</a></p>
+                    <p class="text-gray-600 text-xs">Rapport Munro, Koopman, Anderson, Schweller, Röhr, Kleiman-Weiner, Lewis, Klein, Allritz, Robinson, and others (2025). Journal of Comparative Psychology</p>
+                </div>                
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2024</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2404.16698" class="text-blue-600 hover:text-blue-700">Cooperate or Collapse: Emergence of Sustainable Cooperation in a Society of LLM Agents</a></p>
+                    <p class="text-gray-600 text-xs">Piatti*, Jin*, Kleiman-Weiner*, Schölkopf, Sachan, Mihalcea (2024). NeurIPS</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2407.02273" class="text-blue-600 hover:text-blue-700">Language Model Alignment in Multilingual Trolley Problems</a></p>
+                    <p class="text-gray-600 text-xs">Jin*, Kleiman-Weiner*, Piatti*, Levine, Liu, Gonzalez, Ortu, Strausz, Sachan, Mihalcea, and others (2024). ICLR (Spotlight), NeurIPS Pluralistic Alignment Workshop Best Paper Award</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/McManus2024tempted.pdf" class="text-blue-600 hover:text-blue-700">Most people do not "value the struggle": Tempted agents are judged as less virtuous than those who were never tempted</a></p>
+                    <p class="text-gray-600 text-xs">McManus, Fong, Kleiman-Weiner, Young (2024). Journal of Experimental Social Psychology</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2407.14681" class="text-blue-600 hover:text-blue-700">Value internalization: Learning and generalizing from social reward</a></p>
+                    <p class="text-gray-600 text-xs">Rong, Kleiman-Weiner (2024). RLC</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/levine2024rules.pdf" class="text-blue-600 hover:text-blue-700">When rules are over-ruled: Virtual bargaining as a contractualist method of moral judgment</a></p>
+                    <p class="text-gray-600 text-xs">Levine, Kleiman-Weiner, Chater, Cushman, Tenenbaum (2024). Cognition</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2410.16665" class="text-blue-600 hover:text-blue-700">Safetyanalyst: Interpretable, transparent, and steerable safety moderation for ai behavior</a></p>
+                    <p class="text-gray-600 text-xs">Li, Pyatkin, Kleiman-Weiner, Jiang, Dziri, Collins, Borg, Sap, Choi, Levine (2024). ICML</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/awad2024acceptable.pdf" class="text-blue-600 hover:text-blue-700">When is it acceptable to break the rules? Knowledge representation of moral judgements based on empirical data</a></p>
+                    <p class="text-gray-600 text-xs">Awad, Levine, Loreggia, Mattei, Rahwan, Rossi, Talamadupula, Tenenbaum, Kleiman-Weiner (2024). Autonomous Agents and Multi-Agent Systems</p>
+                </div>                
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012582" class="text-blue-600 hover:text-blue-700">Approximate planning in spatial search</a></p>
+                    <p class="text-gray-600 text-xs">Kryven, Yu, Kleiman-Weiner, Ullman, Tenenbaum (2024). PLOS Computational Biology</p>
+                </div>                
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2023</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kraft-2022-assessing.pdf" class="text-blue-600 hover:text-blue-700">Assessing and dissociating virtues from the 'bottom up': A case study of generosity vs. fairness</a></p>
+                    <p class="text-gray-600 text-xs">Kraft-Todd, Kleiman-Weiner, Young (2023). The Journal of Positive Psychology</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2312.04350" class="text-blue-600 hover:text-blue-700">Cladder: Assessing causal reasoning in language models</a></p>
+                    <p class="text-gray-600 text-xs">Jin, Chen, Leeb, Gresele, Kamal, Lyu, Blin, Gonzalez Adauto, Kleiman-Weiner, Sachan, and others (2023). NeurIPS</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://royalsocietypublishing.org/rsta/article/381/2251/20220047/112429/Emotion-prediction-as-computation-over-a" class="text-blue-600 hover:text-blue-700">Emotion prediction as computation over a generative theory of mind</a></p>
+                    <p class="text-gray-600 text-xs">Houlihan, Kleiman-Weiner, Hewitt, Tenenbaum, Saxe (2023). Philosophical Transactions of the Royal Society A</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2201.12658" class="text-blue-600 hover:text-blue-700">Learning intuitive policies using action features</a></p>
+                    <p class="text-gray-600 text-xs">Ma, Liu, Sokota, Kleiman-Weiner, Foerster (2023). ICML</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kraft-2022virtue.pdf" class="text-blue-600 hover:text-blue-700">Virtue discounting: Observability reduces moral actors' perceived virtue</a></p>
+                    <p class="text-gray-600 text-xs">Kraft-Todd, Kleiman-Weiner, Young (2023). Open Mind</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2022</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/stacy-2022-overloaded.pdf" class="text-blue-600 hover:text-blue-700">Overloaded communication as paternalistic helping</a></p>
+                    <p class="text-gray-600 text-xs">Stacy, Parab, Kleiman-Weiner, Gao (2022). CogSci</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2021</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2003.11778" class="text-blue-600 hover:text-blue-700">Too Many Cooks: Bayesian Inference for Coordinating Multi-Agent Collaboration</a></p>
+                    <p class="text-gray-600 text-xs">Wu*, Wang*, Evans, Tenenbaum, Parkes, Kleiman-Weiner (2021). Topics in Cognitive Science, CogSci Modeling Prize for Higher Cognition, NeurIPS Cooperative AI Workshop Best Paper Award</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/2106.02164" class="text-blue-600 hover:text-blue-700">Modeling communication to coordinate perspectives in cooperation</a></p>
+                    <p class="text-gray-600 text-xs">Stacy, Li, Zhao, Yun, Zhao, Kleiman-Weiner, Gao (2021). arXiv</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2020</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman-2020-downloading.pdf" class="text-blue-600 hover:text-blue-700">Downloading Culture.zip: Social learning by program induction</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner*, Sosa*, Thompson, van Opheusden, Griffiths, Gershman, Cushman (2020). CogSci</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/awad-2020drivers.pdf" class="text-blue-600 hover:text-blue-700">Drivers are blamed more than their automated cars when both make mistakes</a></p>
+                    <p class="text-gray-600 text-xs">Awad, Levine, Kleiman-Weiner, Dsouza, Tenenbaum, Shariff, Bonnefon, Rahwan (2020). Nature Human Behaviour</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://elifesciences.org/articles/59548" class="text-blue-600 hover:text-blue-700">Nonlinearities between inhibition and T-type calcium channel activity bidirectionally regulate thalamic oscillations</a></p>
+                    <p class="text-gray-600 text-xs">Lu, Lee, Kleiman-Weiner, Truong, Wang, Huguenard, Beenhakker (2020). Elife</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/levine-2020logic.pdf" class="text-blue-600 hover:text-blue-700">The logic of universalization guides moral judgment</a></p>
+                    <p class="text-gray-600 text-xs">Levine, Kleiman-Weiner, Schulz, Tenenbaum, Cushman (2020). Proceedings of the National Academy of Sciences</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/McManus_Kleiman_Weiner_Young_PsychSci2020.pdf" class="text-blue-600 hover:text-blue-700">What we owe to family: The impact of special obligations on moral judgment</a></p>
+                    <p class="text-gray-600 text-xs">McManus, Kleiman-Weiner, Young (2020). Psychological Science</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2019</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://arxiv.org/abs/1906.02330" class="text-blue-600 hover:text-blue-700">Finding friend and foe in multi-agent games</a></p>
+                    <p class="text-gray-600 text-xs">Serrino*, Kleiman-Weiner*, Parkes, Tenenbaum (2019). NeurIPS (Spotlight)</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/cao-2018-people.pdf" class="text-blue-600 hover:text-blue-700">People make the same Bayesian judgment they criticize in others</a></p>
+                    <p class="text-gray-600 text-xs">Cao, Kleiman-Weiner, Banaji (2019). Psychological Science</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/shum2019theory.pdf" class="text-blue-600 hover:text-blue-700">Theory of minds: Understanding behavior in groups through inverse planning</a></p>
+                    <p class="text-gray-600 text-xs">Shum*, Kleiman-Weiner*, Littman, Tenenbaum (2019). AAAI (Oral)</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2018</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kim2018computational.pdf" class="text-blue-600 hover:text-blue-700">A computational model of commonsense moral decision making</a></p>
+                    <p class="text-gray-600 text-xs">Kim, Kleiman-Weiner, Abeliuk, Awad, Dsouza, Tenenbaum, Rahwan (2018). Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/strouse2018learning.pdf" class="text-blue-600 hover:text-blue-700">Learning to share and hide intentions using information regularization</a></p>
+                    <p class="text-gray-600 text-xs">Strouse, Kleiman-Weiner, Tenenbaum, Botvinick, Schwab (2018). NeurIPS</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/gerstenberg2018lucky.pdf" class="text-blue-600 hover:text-blue-700">Lucky or clever? From expectations to responsibility judgments</a></p>
+                    <p class="text-gray-600 text-xs">Gerstenberg, Ullman, Nagel, Kleiman-Weiner, Lagnado, Tenenbaum (2018). Cognition</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2018non.pdf" class="text-blue-600 hover:text-blue-700">Non-parametric Bayesian inference of strategies in repeated games</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Tenenbaum, Zhou (2018). The Econometrics Journal</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/halpern2018towards.pdf" class="text-blue-600 hover:text-blue-700">Towards formal definitions of blameworthiness, intention, and moral responsibility</a></p>
+                    <p class="text-gray-600 text-xs">Halpern, Kleiman-Weiner (2018). AAAI (Oral)</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2017</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2017learning.pdf" class="text-blue-600 hover:text-blue-700">Learning a commonsense moral theory</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Saxe, Tenenbaum (2017). Cognition (SPP William James Prize)</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2017constructing.pdf" class="text-blue-600 hover:text-blue-700">Constructing Social Preferences From Anticipated Judgments: When Impartial Inequity is Fair and Why?</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Shaw, Tenenbaum (2017). CogSci (Oral)</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="https://osf.io/preprints/psyarxiv/ywn4h" class="text-blue-600 hover:text-blue-700">Preschoolers and Infants Calibrate Persistence from Adult Models</a></p>
+                    <p class="text-gray-600 text-xs">Leonard, Kleiman-Weiner, Lee, Tenenbaum, Schulz (2017). CogSci</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/cao2017statistically.pdf" class="text-blue-600 hover:text-blue-700">Statistically inaccurate and morally unfair judgements via base rate intrusion</a></p>
+                    <p class="text-gray-600 text-xs">Cao, Kleiman-Weiner, Banaji (2017). Nature Human Behaviour</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2016</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2016coordinate.pdf" class="text-blue-600 hover:text-blue-700">Coordinate to cooperate or compete: abstract goals and joint intentions in social interaction</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Ho, Austerweil, Michael L, Tenenbaum (2016). CogSci (Oral), RLDM Best Paper Award</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/ho2016norm.pdf" class="text-blue-600 hover:text-blue-700">Feature-based Joint Planning and Norm Learning in Collaborative Games</a></p>
+                    <p class="text-gray-600 text-xs">Ho, MacGlashan, Greenwald, Littman, Hilliard, Trimbach, Brawner, Tenenbaum, Kleiman-Weiner, Austerweil (2016). CogSci</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2015</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2015inference.pdf" class="text-blue-600 hover:text-blue-700">Inference of Intention and Permissibility in Moral Decision Making</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Gerstenberg, Levine, Tenenbaum (2015). CogSci (Oral)</p>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-700 mb-3 mt-6">2014 and Earlier</h3>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2013eggs.pdf" class="text-blue-600 hover:text-blue-700">Eggs versus chewable vitamins: Which intervention can increase nutrition and test scores in rural China?</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Luo, Zhang, Shi, Medina, Rozelle (2013). China Economic Review</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/zhang2013multiple.pdf" class="text-blue-600 hover:text-blue-700">Multiple micronutrient supplementation reduces anemia and anxiety in rural China's elementary school children</a></p>
+                    <p class="text-gray-600 text-xs">Zhang LinXiu, Kleiman-Weiner, Luo RenFu, Shi YaoJiang, Martorell, Medina, Rozelle (2013). Journal of Nutrition</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/luo2010anemia.pdf" class="text-blue-600 hover:text-blue-700">Anemia in rural China's elementary schools: prevalence and correlates in Shaanxi province's poor counties</a></p>
+                    <p class="text-gray-600 text-xs">Luo, Kleiman-Weiner, Rozelle, Zhang, Liu, Sharbono, Shi, Yue, Martorell, Lee (2010). Ecology of food and nutrition</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/cepeda2010rescuing.pdf" class="text-blue-600 hover:text-blue-700">Rescuing the corticostriatal synaptic disconnection in the R6/2 mouse model of Huntington's disease: exercise, adenosine receptors and ampakines</a></p>
+                    <p class="text-gray-600 text-xs">Cepeda, Cummings, Hickey, Kleiman-Weiner, Chen, Watson, Levine (2010). PLoS currents</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/schofield2009gain.pdf" class="text-blue-600 hover:text-blue-700">A gain in GABAA receptor synaptic strength in thalamus reduces oscillatory activity and absence seizures</a></p>
+                    <p class="text-gray-600 text-xs">Schofield, Kleiman-Weiner, Rudolph, Huguenard (2009). Proceedings of the National Academy of Sciences</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2009synergistic.pdf" class="text-blue-600 hover:text-blue-700">Synergistic roles of GABAA receptors and SK channels in regulating thalamocortical oscillations</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Beenhakker, Segal, Huguenard (2009). Journal of Neurophysiology</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/cepeda-2008-differential.pdf" class="text-blue-600 hover:text-blue-700">Differential electrophysiological properties of dopamine D1 and D2 receptor-containing striatal medium-sized spiny neurons</a></p>
+                    <p class="text-gray-600 text-xs">Cepeda, André, Yamazaki, Wu, Kleiman-Weiner, Levine (2008). European Journal of Neuroscience</p>
+                </div>
+                <div class="mb-3 text-sm text-gray-700">
+                    <p class="mb-1"><a href="pdfs/kleiman2006sound.pdf" class="text-blue-600 hover:text-blue-700">The sound of one arm swinging: a model for multidimensional auditory display of physical motion</a></p>
+                    <p class="text-gray-600 text-xs">Kleiman-Weiner, Berger (2006). Proceedings of the 12th International Conference on Auditory Display. ICAD</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

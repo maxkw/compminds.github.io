@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People - Computational Minds and Machines Lab</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Page Title -->
+    <header class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 py-2 flex items-center">
+            <img src="lablogo.png" alt="Lab Logo" class="h-16 w-16 mr-2">
+            <div>
+                <h1 class="text-3xl font-bold text-gray-900">Computational Minds and Machines Lab</h1>
+                <h2 class="text-xl text-gray-600">
+                    University of Washington
+                </h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex space-x-8 hidden md:flex">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="publications.html" class="nav-item">Publications</a>
+                <a href="people.html" class="nav-item active">People</a>
+                <a href="join.html" class="nav-item">Join Us</a>
+            </div>
+            <button class="md:hidden" id="menu-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Dropdown menu for small screens -->
+        <div class="flex flex-col space-y-2 mt-2 px-4 md:hidden hidden" id="dropdown-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="publications.html" class="nav-item">Publications</a>
+            <a href="people.html" class="nav-item active">People</a>
+            <a href="join.html" class="nav-item">Join Us</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <div class="max-w-4xl mx-auto py-4 px-4">
+            <h2 class="text-2xl font-bold mb-4">Lab Members</h2>
+
+            <!-- Principal Investigator -->
+            <div class="mb-8">
+                <div class="member-card">
+                    <div class="flex-none">
+                        <img src="people_photos/max_kleiman-weiner.jpg" alt="Max Kleiman-Weiner" class="member-image">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="text-lg font-semibold">Max Kleiman-Weiner</h3>
+<!--                         <p class="text-gray-700">Assistant Professor</p>
+ -->                        <p class="text-gray-600 text-sm mb-4">
+                            I lead the Computational Minds and Machines lab at UW. We build computational models
+                            that explain how the mind works and draw on insights from how people learn, think, and act to build
+                            smarter and more human-like artificial intelligence.
+                        </p>
+
+                        <div class="flex gap-4">
+                            <a href="http://faculty.washington.edu/maxkw/" target="_blank" class="text-blue-600 hover:text-blue-700">
+                                Website
+                            </a>
+                            <a href="https://x.com/maxhkw" target="_blank" class="text-blue-600 hover:text-blue-700">
+                                X
+                            </a>
+                            <a href="https://bsky.app/profile/maxkw.bsky.social" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-700">
+                                Bluesky
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Graduate Students -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">PhD Students</h3>
+                <div class="space-y-8">
+                    <!-- Claire Yang -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/claire_yang.jpeg" alt="Claire Yang" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Claire Yang</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                My research spans human-robot interaction, artificial intelligence, and alignment, with applications to both embodied and virtual AI systems. I am particularly interested in the key challenges in aligning agentic/robotic assistance with users' goals. This broadly encompasses learning human preferences, investigating intrinsic motivation objectives for assistive agents, and developing shared autonomy systems that balance robotic assistance with user control.
+                            </p>
+                            <a href="https://claireyang.me/" class="text-blue-600 hover:text-blue-700">Website</a>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Kunal Jha -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/kunal_jha.jpg" alt="Kunal Jha" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Kunal Jha</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                My research broadly looks for common computational principles of (collective) intelligence and agency across human minds and machines. I investigate what learning algorithms, predictive representations, and environmental pressures give rise to the emergence of sophisticated social behaviors from chaotic systems. Specifically, I am interested in the role of time in multi-agent settings: when agents are constrained by the amount of time they have to reason, plan, and learn, how can they successfully interact in a world much more complex than their own cognition?
+                            </p>
+                            <a href="https://kjha02.github.io/" class="text-blue-600 hover:text-blue-700">Website</a>
+                        </div>
+                    </div>
+
+                    <!-- Doris Yu -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/doris_yu.jpeg" alt="Doris Yu" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Doris Yu</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                I’m interested in how people make decisions in social environments. My research combines behavioral science with computational approaches, using reinforcement learning models to understand the cognitive processes underlying judgment and choice. I’m particularly interested in how people plan when they collaborate or compete with other, how they coordinating with teammates, predicting rivals’ moves, or navigating the complex social dynamics that shape everyday decisions.
+                            </p>
+<!--                             <a href="#" class="text-blue-600 hover:text-blue-700">Website</a>
+ -->                        </div>
+                    </div>                    
+
+                    <!-- Thomas Lily -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/thomas_lilly.jpeg" alt="Thomas Lily" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Thomas Lily</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                My primary research interest lies at the intersection of quantitative marketing, social media, and machine learning, focusing on how digital creators navigate algorithmically mediated platforms. How do creators learn to make strategic decisions about content, promotion, and audience growth? I am also interested in examining how creators choose collaborators and how platform monetization strategies shape creator and audience behavior.
+                            </p>
+<!--                             <a href="#" class="text-blue-600 hover:text-blue-700">Website</a>
+ -->                        </div>
+                    </div>
+
+
+
+                    <!-- Hanny Guan -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/hanny_guan.png" alt="Hanny Guan" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Hanny Guan</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                My research examines how consumers perceive, seek, and relinquish decision control and autonomy when making joint purchase decisions. Before joining UW, I studied social psychology at the University of Florida (B.S.) and the University of Illinois at Urbana-Champaign (M.S.). I enjoy applying psychological theories and experimental methods to address issues concerning marketing practitioners and consumers.
+                            </p>
+<!--                             <a href="#" class="text-blue-600 hover:text-blue-700">Website</a>
+ -->                        </div>
+                    </div>
+
+                    <h3 class="text-lg font-semibold mb-4">Master's Students</h3>
+
+                    <!-- Haoran Zhao -->
+                    <div class="member-card">
+                        <div class="flex-none">
+                            <img src="people_photos/haoran_zhao.jpeg" alt="Haoran Zhao" class="member-image">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="text-lg font-semibold">Haoran Zhao</h3>
+                            <p class="text-gray-600 text-sm mb-2">
+                                I am interested in social communication, pragmatics, and AI. On the human cognition side, pragmatic language use depends not only on conversational language contexts but also on the social dynamics between interlocutors. Plus we communicate not merely to convey meaning but to express intentions and achieve goals. My research tries to understand the cognitive mechanisms of how these factors shape human communication and how it interacts with other social cognitive processes, such as theory of mind. On the machine side, my research focuses on human-AI communication, specifically on how to achieve pragmatic alignment between models and humans to ensure effective communication.
+                            </p>
+                            <a href="https://hrjzhao.github.io" class="text-blue-600 hover:text-blue-700">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

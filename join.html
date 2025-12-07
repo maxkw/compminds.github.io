@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Computational Minds and Machines Lab</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Page Title -->
+    <header class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 py-2 flex items-center">
+            <img src="lablogo.png" alt="Lab Logo" class="h-16 w-16 mr-2">
+            <div>
+                <h1 class="text-3xl font-bold text-gray-900">Computational Minds and Machines Lab</h1>
+                <h2 class="text-xl text-gray-600">
+                    University of Washington
+                </h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white border-b">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <div class="flex space-x-8 hidden md:flex">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="publications.html" class="nav-item">Publications</a>
+                <a href="people.html" class="nav-item">People</a>
+                <a href="join.html" class="nav-item active">Join Us</a>
+            </div>
+            <button class="md:hidden" id="menu-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+        <!-- Dropdown menu for small screens -->
+        <div class="flex flex-col space-y-2 mt-2 px-4 md:hidden hidden" id="dropdown-menu">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="publications.html" class="nav-item">Publications</a>
+            <a href="people.html" class="nav-item">People</a>
+            <a href="join.html" class="nav-item active">Join Us</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main>
+        <div class="max-w-4xl mx-auto py-4 px-4">
+            <h2 class="text-2xl font-bold mb-4">Join The Lab</h2>
+            <div class="space-y-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">PhD Students</h3>
+                    <p class="text-gray-700 mb-4">
+                        We are actively recruiting PhD students interested in computational cognitive science,
+                        human-AI interaction, and AI alignment. Please apply through:
+                    </p>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>
+                            <a
+                                href="https://www.cs.washington.edu/academics/phd/admissions"
+                                class="text-blue-600 hover:text-blue-700"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                UW CSE PhD Program
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://foster.uw.edu/academics/degree-programs/phd-program/"
+                                class="text-blue-600 hover:text-blue-700"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Foster School PhD Program
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text-gray-700 mt-4">
+                        Interested students should mention Max Kleiman-Weiner in their application to ensure that we will review it.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Postdoctoral Researchers</h3>
+                    <p class="text-gray-700 mb-4">
+                        We welcome inquiries from potential postdoctoral researchers with strong backgrounds in
+                        computational cognitive science, machine learning, or related fields. Please contact us with your CV
+                        and research interests.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">UW Undergraduate and Master's Students</h3>
+                    <p class="  text-gray-700 mb-4">
+                        UW undergraduate and master's students interested in research opportunities should email their
+                        resume and a brief description of their research interests. Students should be prepared to commit to at least a year working 10-20 hours per week during the academic year and full-time during the summer.
+                    </p>
+                </div>
+
+                <a href="mailto:maxkw@uw.edu" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
